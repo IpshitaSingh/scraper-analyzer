@@ -10,3 +10,10 @@ The project consists of three main components:
 2. Analyzer: Performs data analysis and computations on the scraped data.
 3. Main: Integrates the scraping and analysis functionalities to provide the final result.
 
+## Introduction
+Scraper-Analyzer aims to simplify the process of extracting and analyzing data from a particular website. It provides a convenient way to retrieve relevant information and perform insightful analysis, enabling the user to make data-driven decisions efficiently.
+
+## Features
+- Web scraping functionality to extract data from a specified website.
+- Data analysis capabilities to process and analyze the scraped data.
+..more to be added later!
