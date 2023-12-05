@@ -19,10 +19,25 @@ Scraper-Analyzer aims to simplify the process of extracting and analyzing data f
 
 ## UML Diagrams
 - Activity
-  
-![Activity Diagram](https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/activitydiag.png)
+
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/activitydiag.png" width="200">  
+
 - Components
   
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/componentsdiag.png" width="180">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/componentsdiag.png" width="200">
 
 - more to be added later!
+
+## Requirements Engineering
+Requirements are mapped using:
+1. [Trello](https://trello.com/b/Fu2rZBkf/scraper-analyzer) - This board can be viewed via the link
+2. [Jira](https://ipshita.atlassian.net/jira/software/projects/SCRAP/boards/2) - This board can only be viewed via invite!
+
+Trello has been used to keep track of the project's requirements and features. While Jira has been used to track of pending, ongoing and completed tasks in the following manner-
+- Trello 
+
+<img src=".." width="200">
+
+- Jira 
+
+<img src=".." width="200">
