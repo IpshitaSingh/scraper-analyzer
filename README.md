@@ -23,5 +23,6 @@ Scraper-Analyzer aims to simplify the process of extracting and analyzing data f
 ![Activity Diagram](https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/activitydiag.png)
 - Components
   
-![Components Diagram](https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/componentsdiag.png)
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/componentsdiag.png" width="180">
+
 - more to be added later!
