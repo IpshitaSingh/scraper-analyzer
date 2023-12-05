@@ -41,3 +41,9 @@ Trello has been used to keep track of the project's requirements and features. W
 - Jira 
 
 <img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/Requirements%20Engineering/Jira.png" width="450">
+
+## Analysis on this Project
+- [Analysis Checklist for Scraper-Analyzer](..)
+- Analysis on Scraper-Analyzer (to be added after completion of project)
+
+
