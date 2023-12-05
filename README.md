@@ -15,6 +15,8 @@ Scraper-Analyzer aims to simplify the process of extracting and analyzing data f
 
 ## Features
 - Web scraping functionality to extract data from a specified website.
-- Data analysis capabilities to process and analyze the scraped data.
-- 
-..more to be added later!
+- Data analysis capabilities to process, visualize, and analyze the scraped data.
+
+## UML Diagrams
+- [Activity Diagram]()
+- [Class Diagram]()
