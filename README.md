@@ -18,5 +18,5 @@ Scraper-Analyzer aims to simplify the process of extracting and analyzing data f
 - Data analysis capabilities to process, visualize, and analyze the scraped data.
 
 ## UML Diagrams
-- ![Activity Diagram](UML Diagrams/activitydiag.png)
-- ![Class Diagram](UML Diagrams/classesdiag.png)
+- ![Activity Diagram](https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/activitydiag.png)
+- ![Class Diagram](https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/classesdiag.png)
