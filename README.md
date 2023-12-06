@@ -47,4 +47,7 @@ Trello has been used to keep track of the project's requirements and features. W
 - [Analysis Checklist for Scraper-Analyzer](https://github.com/IpshitaSingh/scraper-analyzer/blob/main/Project%20Analysis/Analysis%20Checklist_Scraper-Analyzer.pdf)
 - Analysis on Scraper-Analyzer (..to be added after completion of project)
 
-
+## Domain Driven Design (DDD)
+[Event storming board](https://lucid.app/lucidchart/5dbdb898-77d6-457c-bb14-c9d824771a51/edit?invitationId=inv_9fef94fb-e800-489e-86cd-dbce4d7ab49c)
+Core domains have been encircled and the domain relationships have been mapped out.
+<img src=".." width="800">
