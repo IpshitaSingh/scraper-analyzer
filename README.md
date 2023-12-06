@@ -51,4 +51,4 @@ Trello has been used to keep track of the project's requirements and features. W
 [Event storming board](https://lucid.app/lucidchart/5dbdb898-77d6-457c-bb14-c9d824771a51/edit?invitationId=inv_9fef94fb-e800-489e-86cd-dbce4d7ab49c)
 
 Core domains have been encircled and the domain relationships have been mapped out.
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/DDD/DDD.png" width="800">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/DDD/DDD.png" width="650">
