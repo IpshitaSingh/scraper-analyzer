@@ -1,14 +1,17 @@
-from scraper import scrape_data
-from analyzer import analyze_data
+import scraper
+import analyzer
 
 def main():
-    url = "..."  #to be added later
-    scraped_data = scrape_data(url)
-    if scraped_data:
-        analyzed_result = analyze_data(scraped_data)
+    url = 'https://www.scrapethissite.com/pages/simple/'
+    df = scraper.create_df(url)
+    result = data_analysis(df)
+    print("Analysis Result:", result)
 
-        print("Analysis Result:", analyzed_result)
+def data_analysis(df):
+    return analyzer.check_missing_values(df), analyzer.explore_data(df), analyzer.visualize_data(df)
 
 if __name__ == "__main__":
     main()
+
+
 

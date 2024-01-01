@@ -52,8 +52,9 @@ def create_df(url):
     else:
         return None
 
-data_frame = create_df(url)
+# data_frame = create_df(url)
 
 #print the DF if it's not empty
-if data_frame is not None:
-    print(data_frame)
+# if data_frame is not None:
+#     print(data_frame)
+
