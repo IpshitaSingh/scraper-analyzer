@@ -30,10 +30,10 @@ Scraper-Analyzer aims to simplify the process of extracting and analyzing data f
 
 ## Requirements Engineering
 Requirements are mapped using:
-1. [Trello](https://trello.com/b/Fu2rZBkf/scraper-analyzer) - This board can be viewed via the link
-2. [Jira](https://ipshita.atlassian.net/jira/software/projects/SCRAP/boards/2) - This board can only be viewed via invite!
+1. [Trello](https://trello.com/b/Fu2rZBkf/scraper-analyzer) - Requirements have been mapped using the Kanban method. This board can be accessed via the link.
+2. [Jira](https://ipshita.atlassian.net/jira/software/projects/SCRAP/boards/2) - Requirements have been mapped using the Kanban method. This board can only be accessed via invite! 
 
-Trello has been used to keep track of the project's requirements and features. While Jira has been used to track of pending, ongoing and completed tasks in the following manner-
+Both Trello and Jira has been used to manage the project's requirements and features and to keep track of pending, ongoing and completed tasks in the following manner-
 - Trello 
 
 <img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/Requirements%20Engineering/Trello.png" width="800">
