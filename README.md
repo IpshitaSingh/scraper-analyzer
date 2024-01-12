@@ -31,7 +31,7 @@ Scraper-Analyzer aims to simplify the process of extracting and analyzing data f
 ## Requirements Engineering
 Requirements are mapped using:
 1. [Trello](https://trello.com/b/Fu2rZBkf/scraper-analyzer) - Requirements have been mapped using the Kanban method. This board can be accessed via the link.
-2. [Jira](https://ipshita.atlassian.net/jira/software/projects/SCRAP/boards/2) - Requirements have been mapped using the Kanban method. This board can only be accessed via invite! 
+2. [Jira](https://ipshita.atlassian.net/jira/core/projects/SA/board?atlOrigin=eyJpIjoiYzAxZDY0NmVjODMxNDgxMmI1ZjI5MzUxZWFhMTM1ZWMiLCJwIjoiaiJ9) - Requirements have been mapped using the Kanban method. This board can only be accessed via invite! 
 
 Both Trello and Jira has been used to manage the project's requirements and features and to keep track of pending, ongoing and completed tasks in the following manner-
 - Trello 
@@ -49,6 +49,5 @@ Both Trello and Jira has been used to manage the project's requirements and feat
 
 ## Domain Driven Design (DDD)
 [Event storming board](https://lucid.app/lucidchart/5dbdb898-77d6-457c-bb14-c9d824771a51/edit?invitationId=inv_9fef94fb-e800-489e-86cd-dbce4d7ab49c)
-
 Core domains have been encircled and the domain relationships have been mapped out.
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/DDD/DDD.png" width="650">
+<img src=".." width="800">
