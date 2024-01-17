@@ -60,7 +60,7 @@ The console output will display both summary statistics for the dataset and four
 ## UML Diagrams
 - Activity
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/activitydiag.png" width="800">  
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/activitydiag.png" width="780">  
 
 - Components
   
@@ -68,7 +68,7 @@ The console output will display both summary statistics for the dataset and four
 
 - Classes
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/class_diag.png" width="700"> 
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/class_diag.png" width="600"> 
 
 ## Requirements Engineering
 Requirements are mapped using:
@@ -92,7 +92,7 @@ Both Trello and Jira has been used to manage the project's requirements and feat
 ## Domain Driven Design (DDD)
 [Event storming board](https://lucid.app/lucidchart/5dbdb898-77d6-457c-bb14-c9d824771a51/edit?invitationId=inv_9fef94fb-e800-489e-86cd-dbce4d7ab49c)
 Core domains have been encircled and the domain relationships have been mapped out.
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/DDD/DDD.png" width="800">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/DDD/DDD.png" width="700" height="700">
 
 ## Metrics
 
@@ -103,8 +103,8 @@ SonarCloud has been integrated with this repository for continuous inspection of
 
 The SonarCloud dashboards below provides a detailed overview of the project's health, aiding in identifying areas for improvement.
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/sonar1.png" width="700">
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/sonar2.png" width="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/sonar1.png" width="850">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/sonar2.png" width="850">
 
 ### Pylint Analysis (Spyder IDE)
 
@@ -116,7 +116,7 @@ Note: Unresolved errors are intentional since they don't impact the code's funct
 <img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-scraper.png" width="700">
 - Pylint's score on analyzer.py
 <img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-analyzer.png" width="700">
-- - Pylint's score on main.py
+- Pylint's score on main.py
 <img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-main.png" width="700">
 
 ## Clean Code Development
