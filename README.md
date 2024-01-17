@@ -1,5 +1,7 @@
 Assignment for Software Development class (WiSe '23)
 
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=IpshitaSingh_scraper-analyzer)](https://sonarcloud.io/summary/new_code?id=IpshitaSingh_scraper-analyzer)
+
 # Data Scraper and Analyzer
 
 This is a Python project that involves scraping data from a specific website and performing analysis on the extracted data.
@@ -12,6 +14,7 @@ This is a Python project that involves scraping data from a specific website and
 - [Requirements Engineering](#requirements-engineering)
 - [Analysis Checklist](#analysis-checklist)
 - [Domain Driven Design (DDD)](#domain-driven-design-ddd)
+- [Metrics](#metrics)
 - [Clean Code Development](#clean-code-development)
 - [Build, CI/CD, Tests](#build-cicd-tests)
 - [IDE](#ide)
@@ -57,15 +60,15 @@ The console output will display both summary statistics for the dataset and four
 ## UML Diagrams
 - Activity
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/activitydiag.png" width="800">  
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/activitydiag.png" width="800">  
 
 - Components
   
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/componentsdiag.png" width="200">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/componentsdiag.png" width="200">
 
 - Classes
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/UML%20Diagrams/class_diag.png" width="700"> 
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/class_diag.png" width="700"> 
 
 ## Requirements Engineering
 Requirements are mapped using:
@@ -75,11 +78,11 @@ Requirements are mapped using:
 Both Trello and Jira has been used to manage the project's requirements and features and to keep track of pending, ongoing and completed tasks in the following manner-
 - Trello 
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/Requirements%20Engineering/Trello.png" width="800">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/Requirements%20Engineering/Trello.png" width="800">
 
 - Jira 
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/Requirements%20Engineering/Jira.png" width="800">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/Requirements%20Engineering/Jira.png" width="800">
 
 
 ## Analysis Checklist
@@ -89,10 +92,35 @@ Both Trello and Jira has been used to manage the project's requirements and feat
 ## Domain Driven Design (DDD)
 [Event storming board](https://lucid.app/lucidchart/5dbdb898-77d6-457c-bb14-c9d824771a51/edit?invitationId=inv_9fef94fb-e800-489e-86cd-dbce4d7ab49c)
 Core domains have been encircled and the domain relationships have been mapped out.
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/DDD/DDD.png" width="800">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/DDD/DDD.png" width="800">
+
+## Metrics
+
+The code's quality and adherence to coding standards have been evaluated using two tools: **SonarCloud** and **Pylint**.
+
+### SonarCloud Analysis
+SonarCloud has been integrated with this repository for continuous inspection of code quality. The analysis includes a range of metrics such as code smells, bugs, security vulnerabilities, and maintainability. 
+
+The SonarCloud dashboards below provides a detailed overview of the project's health, aiding in identifying areas for improvement.
+
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/sonar1.png" width="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/sonar2.png" width="700">
+
+### Pylint Analysis (Spyder IDE)
+
+The project's codebase is further subjected to code analysis using Pylint, an in-built code analyzer in the Spyder IDE. Pylint assesses the code according Python coding conventions, identifying issues and provides a score based on it.
+
+Note: Unresolved errors are intentional since they don't impact the code's functionality or cannot be feasibly fixed.
+
+- Pylint's score on scraper.py
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-scraper.png" width="700">
+- Pylint's score on analyzer.py
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-analyzer.png" width="700">
+- - Pylint's score on main.py
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-main.png" width="700">
 
 ## Clean Code Development
-Points that have contributed in keeping the code clean
+Points that have contributed in keeping the code clean:
 1. **Modularity:**
 The code is divided in two parts: Scraper and Analyzer. It is then organized into functions, with each responsible for a specific task (adhering to the "Single Responsibility" principle). This structure makes the code easy to understand, modify, and maintain.
 
@@ -162,10 +190,12 @@ Here's how these requirements are met:
       ```
 
 5. **Functions as Parameters and Return Values:**
-   - `check_missing_values()` function in [Analyzer file](https://github.com/IpshitaSingh/scraper-analyzer/blob/main/analyzer.py) takes data_frame (_defined abo_) as parameter  and returns a boolean value:
+   - `check_missing_values()` function in [Analyzer file](https://github.com/IpshitaSingh/scraper-analyzer/blob/main/analyzer.py) takes data_frame (_defined above_) as parameter  and returns a boolean value:
+
             - True if there are missing values in the DataFrame along with the count of missing values.
+
             - False if there are no missing values in the DataFrame and it prints a message indicating this.
-   - 'data_analysis' function in [Main file](https://github.com/IpshitaSingh/scraper-analyzer/blob/main/main.py) takes a renamed version of data_frame as parameter, which is 'df', (_defined above_) and returns three functions (`check_missing_values()`, `explore_data()`, `visualize_data()`) with each giving an output accordingly. 
+   - `data_analysis` function in [Main file](https://github.com/IpshitaSingh/scraper-analyzer/blob/main/main.py) takes a renamed version of data_frame as parameter, which is `df`, (_defined above_) and returns three functions (`check_missing_values()`, `explore_data()`, `visualize_data()`) with each giving an output accordingly. 
 
 6. **Use of Closures/Anonymous Functions:**
    - `explore_data()` in [Analyzer file](https://github.com/IpshitaSingh/scraper-analyzer/blob/main/analyzer.py) uses lambda function, which is an anonymous function, to format the display of numbers. It takes a floating-point number, `x`, as input and formats it as a string with two decimal places `:.2f` -
