@@ -10,6 +10,7 @@ This is a Python project that involves scraping data from a specific website and
 
 - [Introduction](#introduction)
 - [Installation](#installation)
+- [Outcome](#outcome)
 - [UML Diagrams](#uml-diagrams)
 - [Requirements Engineering](#requirements-engineering)
 - [Analysis Checklist](#analysis-checklist)
@@ -56,6 +57,29 @@ pip install -r requirements.txt
 python main.py
 ```
 The console output will display both summary statistics for the dataset and four visually presented charts with data insights.
+
+## Outcome
+The following outcome is produced upon running the program:
+### Data Visulizations
+1. Plot 1: Top 20 Countries by Population
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_1.png" width="700">
+This bar chart displays the top 20 countries based on their population.
+
+2. Plot 2: Population Distribution
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_2.png" width="700">
+The population distribution chart illustrates the spread of population across different countries.
+
+3. Plot 3: Area vs. Population
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_3.png" width="700">
+This scatter plot visualizes the relationship between the area and population of countries, highlighting any potential correlations.
+
+4. Plot 4: Scatter Plots to depict Correlation between Variables
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_4.png" width="700">
+These charts present a correlation matrix, offering insights into the relationships between different variables in the dataset.
+
+### Summary Statistics
+The console output provides a summary of the data, including shape, data types, and key statistical metrics.
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/console.png" width="700">
 
 ## UML Diagrams
 - Activity
