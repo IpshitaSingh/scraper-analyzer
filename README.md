@@ -62,37 +62,37 @@ The console output will display both summary statistics for the dataset and four
 The following outcome is produced upon running the program:
 ### Data Visulizations
 1. Plot 1: Top 20 Countries by Population
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_1.png" width="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_1.png" height="400" width="auto">
 This bar chart displays the top 20 countries based on their population.
 
 2. Plot 2: Population Distribution
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_2.png" width="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_2.png" height="400" width="auto">
 The population distribution chart illustrates the spread of population across different countries.
 
 3. Plot 3: Area vs. Population
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_3.png" width="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_3.png" height="400" width="auto">
 This scatter plot visualizes the relationship between the area and population of countries, highlighting any potential correlations.
 
 4. Plot 4: Scatter Plots to depict Correlation between Variables
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_4.png" width="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/Figure_4.png" height="400" width="auto">
 These charts present a correlation matrix, offering insights into the relationships between different variables in the dataset.
 
 ### Summary Statistics
 The console output provides a summary of the data, including shape, data types, and key statistical metrics.
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/console.png" width="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/output/console.png" height="350" width="auto">
 
 ## UML Diagrams
 - Activity
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/activitydiag.png" width="780">  
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/activitydiag.png" height="770" width="auto">  
 
 - Components
   
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/componentsdiag.png" width="200">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/componentsdiag.png" height="530" width="auto">
 
 - Classes
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/class_diag.png" width="600"> 
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/UML%20Diagrams/class_diag.png" height="440"> 
 
 ## Requirements Engineering
 Requirements are mapped using:
@@ -102,11 +102,11 @@ Requirements are mapped using:
 Both Trello and Jira has been used to manage the project's requirements and features and to keep track of pending, ongoing and completed tasks in the following manner-
 - Trello 
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/Requirements%20Engineering/Trello.png" width="800">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/Requirements%20Engineering/Trello.png" width="740">
 
 - Jira 
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/Requirements%20Engineering/Jira.png" width="800">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/Requirements%20Engineering/Jira.png" width="740">
 
 
 ## Analysis Checklist
@@ -116,7 +116,7 @@ Both Trello and Jira has been used to manage the project's requirements and feat
 ## Domain Driven Design (DDD)
 [Event storming board](https://lucid.app/lucidchart/5dbdb898-77d6-457c-bb14-c9d824771a51/edit?invitationId=inv_9fef94fb-e800-489e-86cd-dbce4d7ab49c)
 Core domains have been encircled and the domain relationships have been mapped out.
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/DDD/DDD.png" width="700" height="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/DDD/DDD.png" height="700">
 
 ## Metrics
 
@@ -127,8 +127,8 @@ SonarCloud has been integrated with this repository for continuous inspection of
 
 The SonarCloud dashboards below provides a detailed overview of the project's health, aiding in identifying areas for improvement.
 
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/sonar1.png" width="850">
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/sonar2.png" width="850">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/sonar2.png" width="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/sonar1.png" width="700">
 
 ### Pylint Analysis (Spyder IDE)
 
@@ -137,11 +137,11 @@ The project's codebase is further subjected to code analysis using Pylint, an in
 Note: Unresolved errors are intentional since they don't impact the code's functionality or cannot be feasibly fixed.
 
 - Pylint's score on scraper.py
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-scraper.png" width="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-scraper.png" width="500">
 - Pylint's score on analyzer.py
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-analyzer.png" width="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-analyzer.png" width="500">
 - Pylint's score on main.py
-<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-main.png" width="700">
+<img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/pylint-main.png" width="500">
 
 ## Clean Code Development
 Points that have contributed in keeping the code clean:
