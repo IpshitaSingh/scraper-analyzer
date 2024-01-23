@@ -125,6 +125,15 @@ The code's quality and adherence to coding standards have been evaluated using t
 ### SonarCloud Analysis
 SonarCloud has been integrated with this repository for continuous inspection of code quality. The analysis includes a range of metrics such as code smells, bugs, security vulnerabilities, and maintainability. 
 
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=IpshitaSingh_scraper-analyzer&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=IpshitaSingh_scraper-analyzer) 
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=IpshitaSingh_scraper-analyzer&metric=bugs)](https://sonarcloud.io/summary/new_code?id=IpshitaSingh_scraper-analyzer)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=IpshitaSingh_scraper-analyzer&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=IpshitaSingh_scraper-analyzer)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=IpshitaSingh_scraper-analyzer&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=IpshitaSingh_scraper-analyzer)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=IpshitaSingh_scraper-analyzer&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=IpshitaSingh_scraper-analyzer)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=IpshitaSingh_scraper-analyzer&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=IpshitaSingh_scraper-analyzer)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=IpshitaSingh_scraper-analyzer&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=IpshitaSingh_scraper-analyzer)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=IpshitaSingh_scraper-analyzer&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=IpshitaSingh_scraper-analyzer)
+
 The SonarCloud dashboards below provides a detailed overview of the project's health, aiding in identifying areas for improvement.
 
 <img src="https://raw.githubusercontent.com/IpshitaSingh/scraper-analyzer/main/imgs/metrics/sonar2.png" width="700">
